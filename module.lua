@@ -5,7 +5,7 @@ add this in your mm or smth
 ]]
 
 local plr = game.Players.LocalPlayer
-local url = "https://database-wl.<YOUR REPLIT USER>.repl.co/api/wl/"
+local url = "https://yourdomain.com/api/wl/"
 local HttpService = game:GetService("HttpService")
 local data = HttpService:JSONDecode(HttpService:GetAsync(url .. plr.Name))
 
